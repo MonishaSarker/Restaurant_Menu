@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Items"
+        android:layout_margin="10dp"
+        android:textSize="20dp"/>
+
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Beef       230TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheese Fries       180TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chili Cheese Fries       340TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chili Bowl       350TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garden Salad       200TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beef Burger       300TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="House Beef Burger       340TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+        <RadioButton
+            android:id="@+id/r8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Burger       300TK/-"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Please Order"/>
+
+
+</LinearLayout>
